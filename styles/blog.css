@@ -235,13 +235,13 @@ body{
 /* Our stories section style */
 .back-2{
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.993) , rgba(254, 161, 1, 0.205) );
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 .second-back{
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 .our-stories{
@@ -368,12 +368,13 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-   padding: 120px 140px;
+   padding: 120px 100px;
 }
 .side-text{
     width: 400px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 }
 .logo-side{
@@ -416,7 +417,13 @@ body{
     margin-right: 8px;
 }
 
-
+.copy-right{
+   padding: 10px;
+   font-size: 15px;
+   font-weight: 500;
+   color: white;
+   background-color: #1B262C;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -550,7 +557,7 @@ body{
     margin-bottom: 40px;
 }
 .keep-in-touch{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
