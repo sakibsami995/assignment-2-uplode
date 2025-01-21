@@ -246,11 +246,9 @@ body{
 }
 
 .our-stories{
-    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
 }
 .stories-title{
     font-size: 40px;
@@ -259,7 +257,6 @@ body{
     margin-bottom: 80px;
 }
 .stories-card{
-    
     display: flex;
     align-items: start;
     gap: 20px;
@@ -270,7 +267,6 @@ body{
     margin-bottom: 80px;
 }
 .stories-card-img{
-    
     border-radius: 16px 16px 0px 0px;
     margin-bottom: 50px;
 }
@@ -430,4 +426,47 @@ body{
     display: none;
 }
 /* stories */
+.stories-card{
+    flex-direction: column;
+    align-items: start;
+    gap: 0px;
+    margin-bottom: 20px;
+}
+.card-container-1{
+    display: none;
+}
+
+.card-img-side{
+    width: 170px;
+    margin-bottom: 20px;
+}
+.stories-card-title-side{
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+.stories-card-button-2{
+    padding: 5px 10px;
+    background-color: rgba(149, 178, 38, 1);
+    border-radius: 47px;
+    font-family: "Quicksand", serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 4.5rem;
+    left: 1.1rem; 
+}
+.stories-card-button-3{
+    padding: 5px 10px;
+    background-color: rgba(93, 88, 240, 1);
+    border-radius: 47px;
+    font-family: "Quicksand", serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 4.5rem;
+    left: 1.1rem; 
+}
 }
