@@ -149,7 +149,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .card-box-1{
     background: linear-gradient(to top, white 80%, rgba(222, 245, 255, 1));
@@ -229,8 +229,7 @@ body{
     width: 17px;
     padding: 15px;
     background-color: orange;
-    border-radius: 50%;
-   margin-bottom: 60px; 
+    border-radius: 50%; 
 }
 
 /* Our stories section style */
@@ -350,16 +349,81 @@ body{
     bottom: 6.8rem;
     left: 2.2rem;
 }
+.black-btn{
+    margin-bottom: 60px;
+    padding: 15px 45px;
+    background-color: #111111;
+    color: white;
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+/* footer section style*/
+.footer-back{
+    background-color: #01ACFD;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 120px 140px;
+}
+.side-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo{
+ width: 80px;
+}
+.footer-title{
+    font-size: 2rem;
+    color: white;
+}
+.footer-des{
+    font-size: 1.0625rem;
+    color: white;
+}
+.footer-nav ul{
+   list-style: none;
+}
+.footer-nav-title{
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-nav li{
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom: 13px;
+}
+
+.keep-title{
+    font-size: 1.375rem;
+    color: white;
+    margin-bottom: 25px;
+}
+.footer-icon{
+    width: 40px;
+    margin-right: 8px;
+}
+
 
 
 
 @media screen and (max-width: 600px) {
     .padding{
-        padding: 12px 20px;
+        padding: 15px 25px;
        }
-       body{
-        width: 100%;
-       }
+       
     /* navbar section */
    .logo-name{
     display: none;
@@ -420,7 +484,6 @@ body{
 /* curriculum section */
 .curriculum-card{
     grid-template-columns: repeat(1, 1fr);
-
 }
 .round-btn{
     display: none;
@@ -467,6 +530,28 @@ body{
     color: white;
     position: relative;
     bottom: 4.5rem;
-    left: 1.1rem; 
+    left: 1.2rem; 
 }
+
+/* footer section */
+
+.footer{
+    flex-direction: column;
+    padding: 65px 20px;
+    justify-content: left;
+    align-items: flex-start;
+}
+.side-text{
+   width: 350px;
+   margin-bottom: 40px;
+}
+.footer-nav ul{
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.keep-in-touch{
+    margin-bottom: 40px;
+}
+
+
 }
