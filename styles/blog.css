@@ -95,6 +95,7 @@ body{
     font-size: 1rem;
     font-weight: 600;
     border-radius: 12px;
+    box-shadow: 3px 3px 5px 1px rgba(77, 77, 77, 0.178);
 }
 
 
@@ -358,6 +359,7 @@ body{
     font-size: 1rem;
     font-weight: 600;
     border-radius: 12px;
+    box-shadow: 3px 3px 5px 1px rgba(77, 77, 77, 0.178);
 }
 
 /* footer section style*/
@@ -441,19 +443,19 @@ body{
    .orange-button{
     display: none;
    }
-   
+   .border{
+    border: 1px solid orange;
+   }
    
    .navbar{
     width: 100%;
-    padding-bottom: 12px;
-    border-bottom: 1px solid orange;
+    
    }
+   
    /* banner section */
    .banner{
     flex-direction: column-reverse;
     justify-self: center;
-    
-    
    }
    .banner-content{
     text-align: center;
