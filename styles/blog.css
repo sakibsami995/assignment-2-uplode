@@ -461,6 +461,9 @@ body{
     text-align: center;
     width: 100%;
    }
+   .banner-title{
+    font-size: 2.4rem;
+   }
    .banner-image{
     margin-bottom: 20px;
    }
@@ -477,6 +480,10 @@ body{
     text-align: left;
     padding: 0;
 }
+.side{
+    padding: 0px;
+}
+
 
 .side>ul .drop{
     display: none;
@@ -497,7 +504,15 @@ body{
 .round-btn{
     display: none;
 }
+.curriculum-title{
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+}
 /* stories */
+.stories-title{
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+}
 .stories-card{
     flex-direction: column;
     align-items: start;
